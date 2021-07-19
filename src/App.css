@@ -16,14 +16,19 @@ input {
     color: crimson;
 }
 
-ul {
+
+/* ul {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
 li {
     padding: 20px;
-    list-style: none;
     font-size: 20px;
     cursor: pointer;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
